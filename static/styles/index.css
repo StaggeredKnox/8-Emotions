@@ -1,0 +1,49 @@
+h1, p, input {
+    font-family: 'Paprika', sans-serif;
+}
+
+#iid {
+    font-family: 'Forum', serif;
+    font-size: xxx-large;
+}
+
+#id1 {
+    margin: 20px;
+}
+
+#idf {
+    margin-top: 50px;
+}
+
+#idp {
+    color: crimson;
+    font-size: small;
+}
+
+#idS {
+    font-family: 'Caveat', sans-serif;
+    font-size: x-large;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+#idS:hover {
+    cursor: pointer;
+}
+
+#idh {
+    margin-top: 100px;
+    font-family: 'Aboreto', serif;
+    color: black;
+}
+
+#id3 {
+    font-family: 'Merienda', serif;
+    font-size: large;
+    font-weight: bold;
+    color: crimson;
+}
