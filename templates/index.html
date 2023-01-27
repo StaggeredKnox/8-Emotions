@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EMO - raj kishore</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Forum&family=Paprika&family=Spline+Sans+Mono:wght@400;500&family=Caveat:wght@600&family=Merienda:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/index.css')}}" />
+</head>
+<body>
+
+<div id="id1">
+    <h1 id="iid">8-Emotion Services By RK</h1>
+    <p id="idp">NOTE: chosen file must be in (.wav) format with sample rate of 22050 (bitrate=64kbps)</p>
+    <form method="post" enctype="multipart/form-data" id="idf">
+        <input type="file" name="file" />
+        <br>
+        <input type="submit" id="idS" value="Generate" />
+    </form>
+
+    {% if answer["start"] %}
+    <div id="id2">
+        <h1 id="idh">JSON result:</h1>
+        <p id="id3">{{answer}}</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
